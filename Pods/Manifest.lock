@@ -1,0 +1,109 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.4.4)
+  - IQKeyboardManager (5.0.8)
+  - JGProgressHUD (1.4)
+  - JPush-iOS-SDK (3.0.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - MOBFoundation (3.1.2)
+  - PPNetworkHelper (0.8.0):
+    - AFNetworking (~> 3.1.0)
+    - YYCache (~> 1.0.4)
+  - Realm (3.2.0):
+    - Realm/Headers (= 3.2.0)
+  - Realm/Headers (3.2.0)
+  - RongCloudIM (2.8.29):
+    - RongCloudIM/CallKit (= 2.8.29)
+    - RongCloudIM/CallLib (= 2.8.29)
+    - RongCloudIM/IMKit (= 2.8.29)
+    - RongCloudIM/IMLib (= 2.8.29)
+    - RongCloudIM/RedPacket (= 2.8.29)
+    - RongCloudIM/Sticker (= 2.8.29)
+  - RongCloudIM/CallKit (2.8.29):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.29):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.29):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.29)
+  - RongCloudIM/RedPacket (2.8.29):
+    - RongCloudIM/IMKit
+  - RongCloudIM/Sticker (2.8.29):
+    - RongCloudIM/IMKit
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - ShareSDK3 (4.0.4):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.4)
+  - ShareSDK3/ShareSDK (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKExtension (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (4.0.4):
+    - MOBFoundation
+  - SobotKit (2.3.3)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BaiduMapKit
+  - IQKeyboardManager (~> 5.0.7)
+  - JGProgressHUD (~> 1.4)
+  - JPush-iOS-SDK (~> 3.0.5)
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.15.3)
+  - PPNetworkHelper
+  - Realm (~> 3.2.0)
+  - RongCloudIM (~> 2.8.29)
+  - SDWebImage (~> 4.2.3)
+  - ShareSDK3 (~> 4.0.4)
+  - ShareSDK3/ShareSDKExtension (~> 4.0.4)
+  - ShareSDK3/ShareSDKPlatforms/QQ (~> 4.0.4)
+  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (~> 4.0.4)
+  - ShareSDK3/ShareSDKUI (~> 4.0.4)
+  - SobotKit (~> 2.3.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  JPush-iOS-SDK: f80e435b524449fd5101e247b044d4e48174ef5f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MOBFoundation: 5c7cd437320b5252ebe0ca20283cc1ffe66f7669
+  PPNetworkHelper: 900d1af5cb9f2932b3f955ebf72148b7ec403d44
+  Realm: ae552b9b9eca3a12374a589fa842f220e286a80a
+  RongCloudIM: 20efc36e9b85bdc3a5c09726611fd5e74b703217
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+  SobotKit: 09bdd69653356c3cbe687e1455a65424de3b6287
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 43d6235f4cb9482cc9502976fcdbeac094968919
+
+COCOAPODS: 1.4.0

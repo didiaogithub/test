@@ -1,0 +1,67 @@
+//
+//  CKYSPlatform_Prefix.pch
+//  CKYSPlatform
+//
+//  Created by 庞宏侠 on 16/7/1.
+//  Copyright © 2016年 ckys. All rights reserved.
+//
+
+//#ifndef CKYSPlatform_Prefix_pch
+//#define CKYSPlatform_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/foundation.h>
+#import "Common.h"
+#import "getUUID.h"  //获取设备唯一标示
+#import "STCountDownButton.h"  //倒计时button
+#import "UIView+Extension.h"
+#import "Masonry.h"
+#import "HttpTool.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UILabel+configure.h"
+#import "UILabel+TTSpacing.h"  //文字间距
+
+#import "NSString+Chatacters.h"
+#import "NSString+Common.h"
+#import "UIImage+Common.h"
+#import "JGProgressHUD.h"
+#import "RootTabBarController.h"
+#import "RootNavigationController.h"
+#import "UIImage+GIF.h"
+#import "UITableView+EmptyData.h"
+#import "NSDate+Common.h"
+#import "MJRefresh.h"
+
+#import "UILabel+configure.h"
+#import "TTAttibuteLabel.h"
+#import "NSDate+Common.h"
+#import "IQKeyboardManager.h"
+#import <WebKit/WebKit.h>
+#import "MJAudioTool.h"    //播放声音
+#import "NSDecimalNumber+Addtion.h"
+#import "UIImageView+Extension.h"
+#import "UIView+Layer.h"
+#import "UIColor+Extension.h"
+#import "XLImageViewer.h"  //浏览图片
+#import "UIImageView+ShadowImageView.h"
+#import "MJGearFooter.h"  //自定义footer
+#import "MJGearHeader.h"  //自定义header
+#import "UITableView+WLEmptyPlaceHolder.h" //无数据说明
+#import "UICollectionView+WLEmptyPlaceHolder.h"
+#import "NodataLableView.h"
+#import "NodataImageView.h"
+#import "MultipleDevicesAlter.h" //多台设备登录
+#import "Public.h"
+#import "MLEmojiLabel.h"
+#import "UIViewController+CurrentVC.h"
+#import "MessageAlert.h"
+#import "XNArchiverManager.h"
+#import "WebDetailViewController.h"
+
+
+#endif /* CKYSPlatform_Prefix_pch */

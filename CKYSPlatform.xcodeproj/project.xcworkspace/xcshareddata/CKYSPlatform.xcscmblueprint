@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F7CCC817F746C319C52518D3A7A8203481D6BDD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++913" : {
+
+    },
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++8573" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++913" : 0,
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++8573" : 0,
+    "F7CCC817F746C319C52518D3A7A8203481D6BDD0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "26744488-4A12-4467-84E2-50461C7AF667",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++913" : "CKYSPlatform3.0\/",
+    "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++8573" : "CKYSPlatform\/",
+    "F7CCC817F746C319C52518D3A7A8203481D6BDD0" : "CKYSPlatform\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CKYSPlatform",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CKYSPlatform.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.2.216:CkAPP3\/CKYSPlatform.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7CCC817F746C319C52518D3A7A8203481D6BDD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/panghongxia%40ckc8.xa@192.168.2.210\/svn\/ckc3.0",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++8573"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/panghongxia%40ckc8.xa@192.168.2.210\/svn\/ckc3.0",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d109ecfb-4bcf-4d41-9d29-eb788142dcc8++913"
+    }
+  ]
+}

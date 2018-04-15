@@ -1,0 +1,41 @@
+//
+//  CloudRecordTableViewCell.h
+//  CKYSPlatform
+//
+//  Created by 庞宏侠 on 16/11/7.
+//  Copyright © 2016年 ckys. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "YundouAndProductModel.h"
+@interface CloudRecordTableViewCell : UITableViewCell
+{
+    UIView *bankView;
+
+}
+
+
+/**左侧图标*/
+@property(nonatomic,strong)UIImageView *leftImageView;
+/**操作名称*/
+@property(nonatomic,strong)UILabel *operateLable;
+/**操作价格*/
+@property(nonatomic,strong)UILabel *operatePriceLable;
+
+/**操作时间*/
+@property(nonatomic,strong)UILabel *operateTimeLable;
+
+/**点击查看详情按钮*/
+@property(nonatomic,strong)UIButton *detailButton;
+/**自提、零售、退货：订单号，进货：支付流水号or内转，分销进货：分销姓名	*/
+
+@property(nonatomic,strong)UILabel *leftLable;
+/**金凤创客才显示*/
+@property(nonatomic,strong)UILabel *takecashlockLable;
+/**金凤创客才显示*/
+@property(nonatomic,strong)UILabel *islockLable;
+
+- (void)refreshWithModel:(YundouAndProductModel *)model;
+
+
+@end
